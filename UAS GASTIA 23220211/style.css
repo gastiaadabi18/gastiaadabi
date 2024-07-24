@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #0b0b9b;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around; 
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+.menu {
+    margin-left: 800px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.menu ul a {
+    color: white;
+    text-decoration: none;
+} 
+
+.menu ul a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+.hai {
+    color: #ffffff;
+    background-color: rgb(26, 26, 212);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.hai img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 100px;
+}
+
+.hai h1 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.hai p {
+    margin-bottom: 70px;
+}
+
+.hai button {
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    
+}
+
+.hai button:hover {
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.hai span::before {
+    content: '';
+    animation: gerak infinite 5s ease-in;
+    transform: translateY(-50%);
+    color: rgb(251, 255, 18);
+    font-family: 60px;
+}
+
+@keyframes gerak {
+    0%{
+        content: "Selamat Datang";
+    }
+
+    50%{
+        content: "Saya GASTIA ADABI";
+    }
+
+    100%{
+        content: "TerimaKasih sudah singgah";
+    }
+}
+
+.pendidikan {
+    color: #000000;
+    height: 500px;
+    margin-top: 40px;
+}
+.pendidikan h1 {
+    color: #333a3b;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.konten {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kiri,
+.tengah,
+.kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(185, 185, 179);
+    color: rgb(230, 238, 230);
+    padding: 30px 30px;
+    margin: 70px 20px 20px; 
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.kiri:hover,
+.tengah:hover,
+.kanan:hover {
+    background-color: rgb(32, 18, 156);
+    border: 3px solid hwb(0 100% 0%);
+}
+
+.konten img {
+    height: 130px;
+    width: 130px;
+}
+
+.konten h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+}
+
+.konten p {
+    padding: 0px 25px;
+    font-size: 17px;
+}
+
+.softskill {
+    color: #000000;
+    height: 500px;
+    margin-top: 8px;
+}
+
+.softskill h1 {
+    color: #333a3b;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+footer h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin-top: 30px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+}
+
+footer p {
+    text-align: center;
+    background-color: rgb(254, 254, 255);
+}
+
+footer button:hover {
+    border-radius: 100px;
+    border:#ffffff;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    font-style: italic;  
+    
+}
+
+footer button {
+    border-radius: 50px;
+    border: none;
+    width: 220px;
+    padding: 10px;
+}
